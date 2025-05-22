@@ -1,0 +1,163 @@
+<html lang="tr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Mini Blog
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-900">
+  <header class="bg-blue-600">
+   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-12 flex items-center justify-between text-white text-sm">
+    <div>
+     Mini Blog
+    </div>
+    <ul class="flex space-x-4">
+     <li>
+      <a class="hover:underline" href="#">
+       Ana Sayfa
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       Son Yazı
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       Hakkımızda
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+   <section class="bg-gray-100 p-8 rounded-md mb-10">
+    <h1 class="text-3xl font-light mb-2">
+     Mini Blog Sayfamıza Hoş Geldiniz
+    </h1>
+    <p class="text-sm text-gray-700 mb-4">
+     Güncel yazılarımızı ve düşüncelerimizi paylaştığımız blog sayfamızda keyifli okumalar.
+    </p>
+    <button class="bg-blue-600 text-white text-sm px-4 py-2 rounded hover:bg-blue-700 transition">
+     Son Yazıyı Oku
+    </button>
+   </section>
+   <div class="flex flex-col lg:flex-row gap-8">
+    <section class="flex-1">
+     <h2 class="font-semibold text-lg mb-4">
+      Son Yazılar
+     </h2>
+     <article class="flex border border-gray-200 rounded-md mb-4 bg-white">
+      <img alt="Doğanın güzelliklerini gösteren dağlar ve nehir manzarası" class="w-[150px] h-[100px] object-cover rounded-l-md" height="100" src="https://storage.googleapis.com/a1aa/image/c6ef4970-7d5b-47a2-cd09-0c837a77e5c8.jpg" width="150"/>
+      <div class="p-4 flex flex-col justify-between flex-1">
+       <div>
+        <h3 class="font-semibold text-base mb-1">
+         Doğanın Güzellikleri
+        </h3>
+        <p class="text-xs text-gray-700 mb-2">
+         Doğanın muhteşem güzelliklerini keşfetmek için çıktığımız yolculukta karşılaştığımız manzaralar...
+        </p>
+       </div>
+       <div class="text-xs text-gray-500 mb-2">
+        23 Mayıs 2025 · Nergiz ALGÜL
+       </div>
+       <button class="text-blue-600 text-xs border border-blue-600 rounded px-2 py-0.5 hover:bg-blue-600 hover:text-white transition w-max">
+        Devamını Oku
+       </button>
+      </div>
+     </article>
+     <article class="flex border border-gray-200 rounded-md mb-4 bg-white">
+      <img alt="Şehir yaşamını gösteren karanlık bulutlu gökyüzü ve şehir manzarası" class="w-[150px] h-[100px] object-cover rounded-l-md" height="100" src="https://storage.googleapis.com/a1aa/image/05c36f12-51da-4fed-5fe6-005ba6c39e67.jpg" width="150"/>
+      <div class="p-4 flex flex-col justify-between flex-1">
+       <div>
+        <h3 class="font-semibold text-base mb-1">
+         Şehir Yaşamının İncelikleri
+        </h3>
+        <p class="text-xs text-gray-700 mb-2">
+         Modern şehir yaşamında karşılaştığımız zorluklar ve bunlarla başa çıkma yöntemleri...
+        </p>
+       </div>
+       <div class="text-xs text-gray-500 mb-2">
+        18 Mayıs 2025 ·Nergiz ALGÜL
+       </div>
+       <button class="text-blue-600 text-xs border border-blue-600 rounded px-2 py-0.5 hover:bg-blue-600 hover:text-white transition w-max">
+        Devamını Oku
+       </button>
+      </div>
+     </article>
+    </section>
+    <aside class="w-full lg:w-80 space-y-6">
+     <div class="bg-white rounded-md border border-gray-200">
+      <div class="bg-blue-600 text-white font-semibold text-sm px-4 py-2 rounded-t-md">
+       Kategoriler
+      </div>
+      <ul class="p-4 space-y-2 text-xs text-gray-700">
+       <li class="flex justify-between items-center border border-gray-200 rounded px-2 py-1">
+        <span>
+         Doğa
+        </span>
+        <span class="bg-red-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+         4
+        </span>
+       </li>
+       <li class="flex justify-between items-center border border-gray-200 rounded px-2 py-1">
+        <span>
+         Şehir Yaşamı
+        </span>
+        <span class="bg-red-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+         2
+        </span>
+       </li>
+       <li class="flex justify-between items-center border border-gray-200 rounded px-2 py-1">
+        <span>
+         Hayvanlar
+        </span>
+        <span class="bg-red-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+         3
+        </span>
+       </li>
+       <li class="flex justify-between items-center border border-gray-200 rounded px-2 py-1">
+        <span>
+         Teknoloji
+        </span>
+        <span class="bg-red-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+         5
+        </span>
+       </li>
+      </ul>
+     </div>
+     <div class="bg-white rounded-md border border-gray-200">
+      <div class="bg-blue-600 text-white font-semibold text-sm px-4 py-2 rounded-t-md">
+       Abone Ol
+      </div>
+      <div class="p-4 text-xs text-gray-700">
+       Yeni yazılardan haberdar olmak için abone olun.
+       <form class="mt-3 space-y-2" onsubmit="event.preventDefault()">
+        <input class="w-full border border-gray-300 rounded px-3 py-2 text-xs focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="E-posta adresiniz" required="" type="email"/>
+        <button class="w-full bg-blue-600 text-white text-xs rounded px-3 py-2 hover:bg-blue-700 transition" type="submit">
+         Abone Ol
+        </button>
+       </form>
+      </div>
+     </div>
+    </aside>
+   </div>
+  </main>
+  <footer style="background-color: #1e1e1e; color: white; text-align: center; padding: 20px 10px; font-family: Arial, sans-serif; font-size: 14px; margin-top: 40px;">
+    <p style="font-size: 16px; font-weight: bold; margin: 0;">Mini Blog</p>
+    <p style="margin: 8px 0;">Düşüncelerimizi ve deneyimlerimizi paylaştığımız blog sayfası.</p>
+    <p style="margin: 8px 0;">İletişim: <a href="mailto:info@miniblog.com" style="color: #90caf9; text-decoration: none;">info@miniblog.com</a></p>
+    <p style="margin: 8px 0;">&copy; 2025 Mini Blog. Tüm hakları saklıdır.</p>
+</footer>
+ </body>
+</html>
